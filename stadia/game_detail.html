@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Details</title>
+  <!-- TYPOGRAPHY -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&family=Roboto:wght@300;400;500;700;900&display=swap"
+    rel="stylesheet">
+
+  <!-- UNIVERSAL STYLESHEET -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- BOOTSTRAP CSS -->
+  <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+
+  <!-- DEAIL PAGE CSS -->
+  <link rel="stylesheet" href="./assets/css/game_detail.css">
+
+  <!-- FONT ICONS KIT -->
+  <script src="https://kit.fontawesome.com/74d240b4ae.js" crossorigin="anonymous"></script>
+
+
+</head>
+
+<body>
+
+  <!-- navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light">
+    <a class="navbar-brand" href="#">NOBLE GAMES</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link homeLink" href="./store.html">Store</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./index.html">Library</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">News</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Support</a>
+        </li>
+
+      </ul>
+      <div class="navIcons d-flex">
+        <i class="fas fa-gamepad"></i>
+        <i class="fas fa-user-friends"></i>
+        <span class="profileImg"></span>
+      </div>
+    </div>
+  </nav>
+
+
+  <!-- Details section -->
+  <section class="wrapper">
+
+    <!-- detail banner start here -->
+    <div class="detail_banner" style="height: 50vh;">
+
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./assets/images/detail_bg.jpg" alt="DETAILS IMAGES">
+          </div>
+          <div class="carousel-item">
+            <img src="./assets/images/detail_bg2.jpg" alt="DETAILS IMAGES">
+
+          </div>
+          <div class="carousel-item">
+            <img src="./assets/images/detail_bg3.jpg" alt="DETAILS IMAGES">
+          </div>
+
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+
+    </div>
+
+    <!-- detail banner end here -->
+    <div class="gameDesc mt-5">
+      <div class="col1">
+        <div class="descImg">
+          <img src="./assets/images/cyberLogo.png" alt="GAMES">
+        </div>
+      </div>
+      <div class="col2">
+        <p>
+
+          Cyberpunk 2077 is an open-world, action-adventure story set in Night City, a megalopolis obsessed with power,
+          glamour and body modification. You play as V, a mercenary outlaw going after a one-of-a-kind implant that is
+          the key to immortality. You can customize your character’s.
+
+        </p>
+      </div>
+      <div class="col3">
+        <p class="price">
+          $59.99
+        </p>
+        <div class="d-flex" style="width: 100%;">
+          <button class="button buy">
+            BUY NOW
+          </button>
+          <button class="button heart">
+            <i class="far fa-heart"></i>
+          </button>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- system requirement -->
+    <div class="requirement">
+      <div class="heading">
+        <h2>
+          Specifications
+        </h2>
+      </div>
+      <div class="row d-flex" style="justify-content: space-between;color: #fff;">
+        <div class="col-sm-6">
+          <p class="sub-head">
+            Minimum
+          </p>
+          <div class="d-flex borderBot" style="justify-content: space-between;">
+            <div>
+              <p class="white">
+                OS
+              </p>
+            </div>
+            <div>
+              <p class="light">
+                Windows 7
+              </p>
+            </div>
+          </div>
+          <div class="d-flex borderBot" style="justify-content: space-between;">
+            <div>
+              <p class="white">
+                Processor
+              </p>
+            </div>
+            <div>
+              <p class="light">
+                Intel Core i5-3570K or AMD FX-8310
+              </p>
+            </div>
+          </div>
+
+          <div class="d-flex borderBot" style="justify-content: space-between;">
+            <div>
+              <p class="white">
+                Memory
+              </p>
+            </div>
+            <div>
+              <p class="light">
+                8 GB RAM
+              </p>
+            </div>
+          </div>
+          <div class="d-flex borderBot" style="justify-content: space-between;">
+            <div>
+              <p class="white">
+                Graphics
+              </p>
+            </div>
+            <div>
+              <p class="light">
+                NVIDIA GeForce GTX 780 or AMD Radeon RX 470
+              </p>
+            </div>
+          </div>
+          <div class="d-flex borderBot" style="justify-content: space-between;">
+            <div>
+              <p class="white">
+                Storage
+              </p>
+            </div>
+            <div>
+              <p class="light">
+                70 GB (SSD recommended)
+              </p>
+            </div>
+          </div>
+
+        </div>
+        <div class="col-sm-6 detailPad">
+          <p class="sub-head">
+            Recommended
+          </p>
+          <div class="d-flex borderBot" style="justify-content: space-between;">
+            <div>
+              <p class="white">
+                OS
+              </p>
+            </div>
+            <div>
+              <p class="light">
+                Windows 10
+              </p>
+            </div>
+          </div>
+          <div class="d-flex borderBot" style="justify-content: space-between;">
+            <div>
+              <p class="white">
+                Processor
+              </p>
+            </div>
+            <div>
+              <p class="light">
+                Intel Core i7-4790 or AMD Ryzen 3 3200G
+              </p>
+            </div>
+          </div>
+
+          <div class="d-flex borderBot" style="justify-content: space-between;">
+            <div>
+              <p class="white">
+                Memory
+              </p>
+            </div>
+            <div>
+              <p class="light">
+                12 GB RAM
+              </p>
+            </div>
+          </div>
+          <div class="d-flex borderBot" style="justify-content: space-between;">
+            <div>
+              <p class="white">
+                Graphics
+              </p>
+            </div>
+            <div>
+              <p class="light">
+                NVIDIA GeForce GTX 1060 or AMD Radeon R9 Fury
+              </p>
+            </div>
+          </div>
+
+          <div class="d-flex borderBot" style="justify-content: space-between;">
+            <div>
+              <p class="white">
+                Processor
+              </p>
+            </div>
+            <div>
+              <p class="light">
+                Intel Core i5-3570K or AMD FX-8310
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- about -->
+    <div class="requirement">
+      <div class="heading">
+        <h2>
+          About Cyberpunk 2077
+        </h2>
+      </div>
+      <div class="row d-flex" style="justify-content: space-between;color: #fff;">
+        <div class="col-sm-6">
+          <div class="d-flex borderBot" style="justify-content: space-between;">
+            <div>
+              <p class="white">
+
+                Developer
+              </p>
+            </div>
+            <div>
+              <p class="light">
+                CD PROJEKT RED
+              </p>
+            </div>
+          </div>
+          <div class="d-flex borderBot" style="justify-content: space-between;">
+            <div>
+              <p class="white">
+                Publisher
+              </p>
+            </div>
+            <div>
+              <p class="light">
+                CD PROJEKT RED
+              </p>
+            </div>
+          </div>
+
+          <div class="d-flex borderBot" style="justify-content: space-between;">
+            <div>
+              <p class="white">
+
+                Release Date
+              </p>
+            </div>
+            <div>
+              <p class="light">
+
+                Dec 10, 2020
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 detailPad">
+
+          <div class="d-flex borderBot" style="justify-content: space-between;">
+            <div>
+              <p class="white">
+                Tags
+              </p>
+            </div>
+            <div>
+              <p class="light">
+                RPG,Single Player,Action
+              </p>
+            </div>
+          </div>
+          <div class="d-flex borderBot" style="justify-content: space-between;">
+            <div>
+              <p class="white">
+                Rating
+              </p>
+            </div>
+            <div>
+              <p class="light">
+                –
+              </p>
+            </div>
+          </div>
+
+          <div class="d-flex borderBot" style="justify-content: space-between;">
+            <div>
+              <p class="white">
+                Platform
+              </p>
+            </div>
+            <div>
+              <p class="light">
+                Windows
+              </p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <!-- follow us  -->
+    <div class="follow_us mt-5">
+      <div class="heading">
+        <h2>
+          Follow Us
+        </h2>
+      </div>
+      <div class="row follow">
+        <i class="fab fa-facebook-square"></i>
+        <i class="fab fa-twitter"></i>
+        <i class="fas fa-gamepad"></i>
+        <i class="fab fa-youtube"></i>
+      </div>
+    </div>
+  </section>
+
+
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+
+</body>
+
+</html>
